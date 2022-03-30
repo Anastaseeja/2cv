@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+
+h1{
+  font-family: 'Gloria Hallelujah', cursive;
+  margin: 80px auto 0 auto;
+  color: #E1D89F;
+  font-size: 3.2em;
+}
+h2{
+  color: #E1D89F;
+  margin: 10px auto 10px auto;
+  font-size: 2.825em;
+  font-weight: normal;
+}
+h3{
+  color: #E1D89F;
+  margin: 10px auto 10px auto;
+  font-size: 2em;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #F3CF7A;
+  font-size: 1.3em;
+  line-height: 2em;
+}
+.topcontainer{
+  background-color: #0F0E0E;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 60px;
+}
+.topcloud{
+  position: absolute;
+  left: 900px;
+  top:90px;
+}
+.bottomcloud{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+.middlecontainer{
+  background-color: #0F0E0E;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+.hellop{
+  width: 30%;
+  margin: auto;
+}
+.skills{
+  padding-top: 80px;
+}
+.skillrow{
+  width: 60%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+}
+.comp{
+  width:25%;
+  margin-right: 90px;
+  float: left;
+}
+.canvas{
+  width:25%;
+  margin-left: 90px;
+  float: right;
+}
+.bottomcontainer{
+  background-color: #8A8635;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.btn{
+  color: #E1D89F;
+}
+.footerlink{
+  color: #E1D89F;
+  margin-bottom: 20px;
+}
+.author{
+  margin-bottom: 0;
+  height: 20px;
+}
