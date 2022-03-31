@@ -2,6 +2,7 @@ body{
   margin: 0;
   text-align: center;
   font-family: 'Dosis', sans-serif;
+  background-color: #233714;
 }
 
 h1{
@@ -29,7 +30,6 @@ p{
   line-height: 2em;
 }
 .topcontainer{
-  background-color: #0F0E0E;
   margin: 0 auto;
   position: relative;
   padding-top: 60px;
@@ -45,15 +45,17 @@ p{
   left: 300px;
 }
 .middlecontainer{
-  background-color: #0F0E0E;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 90px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 .hellop{
   width: 30%;
   margin: auto;
+}
+.me{
+  border-radius: 50%;
 }
 .skills{
   padding-top: 80px;
@@ -77,17 +79,41 @@ p{
   background-color: #8A8635;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
-.btn{
-  color: #E1D89F;
+.contactme{
+  padding: 50px;
+}
+.beforebtn{
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #1C0A00;
+  font-size: 20px;
+  background: #F6D860;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 30px auto 30px auto;
+}
+.btn:hover {
+  background: #95CD41;
+  text-decoration: none;
 }
 .footerlink{
   color: #E1D89F;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 20px;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 .author{
   margin-bottom: 0;
-  height: 20px;
+  margin-top: 10px;
+  height: 10px;
+  font-size: 1em;
 }
